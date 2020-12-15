@@ -1,0 +1,295 @@
+{
+  "CSO" : {
+    "TBM_Banner" : {
+      "OrderDetails" : "https://imgur.com/cJ88tZ1.jpg"
+    },
+    "TBM_Drink" : [ null, {
+      "drinkID" : 1,
+      "drinkName" : "Coffee",
+      "image" : "http://",
+      "nowQty" : 0,
+      "price" : 15000
+    }, {
+      "drinkID" : 2,
+      "drinkName" : "Milk Coffee",
+      "image" : "http://",
+      "nowQty" : 0,
+      "price" : 19000
+    }, {
+      "drinkID" : 3,
+      "drinkName" : "Orange Smoothie",
+      "image" : "http://",
+      "nowQty" : 0,
+      "price" : 25000
+    }, {
+      "drinkID" : 4,
+      "drinkName" : "CocaCola",
+      "image" : "http://",
+      "nowQty" : 0,
+      "price" : 15000
+    }, {
+      "drinkID" : 5,
+      "drinkName" : "Juice Lemon",
+      "image" : "http://",
+      "nowQty" : 0,
+      "price" : 20000
+    } ],
+    "TBM_Tables" : {
+      "T01" : {
+        "id" : "T01",
+        "name" : "Table 01",
+        "status" : "free"
+      },
+      "T02" : {
+        "id" : "T02",
+        "name" : "Table 02",
+        "status" : "order"
+      },
+      "T03" : {
+        "id" : "T03",
+        "name" : "Table 03",
+        "status" : "order"
+      },
+      "T04" : {
+        "id" : "T04",
+        "name" : "Table 04",
+        "status" : "order"
+      },
+      "T05" : {
+        "id" : "T05",
+        "name" : "Table 05",
+        "status" : "order"
+      },
+      "T06" : {
+        "id" : "T06",
+        "name" : "Table 06",
+        "status" : "free"
+      },
+      "T07" : {
+        "id" : "T07",
+        "name" : "Table 07",
+        "status" : "free"
+      },
+      "T08" : {
+        "id" : "T08",
+        "name" : "Table 08",
+        "status" : "free"
+      },
+      "T09" : {
+        "id" : "T09",
+        "name" : "Table 09",
+        "status" : "free"
+      },
+      "T10" : {
+        "id" : "T10",
+        "name" : "Table 10",
+        "status" : "free"
+      },
+      "T11" : {
+        "id" : "T11",
+        "name" : "Table 11",
+        "status" : "order"
+      },
+      "T12" : {
+        "id" : "T12",
+        "name" : "Table 12",
+        "status" : "free"
+      },
+      "T13" : {
+        "id" : "T13",
+        "name" : "Table 13",
+        "status" : "free"
+      },
+      "T14" : {
+        "id" : "T14",
+        "name" : "Table 14",
+        "status" : "free"
+      },
+      "T15" : {
+        "id" : "T15",
+        "name" : "Table 15",
+        "status" : "free"
+      },
+      "T16" : {
+        "id" : "T16",
+        "name" : "Table 16",
+        "status" : "free"
+      }
+    },
+    "TBM_Users" : {
+      "admin" : {
+        "address" : "Dĩ An, Bình Dương",
+        "dateOfBirth" : "21/06/1991",
+        "fullName" : "Hoàng Quốc Phú",
+        "gender" : "Male",
+        "passWord" : "051052053",
+        "permission" : "admin",
+        "phone" : "0943174641",
+        "userID" : "admin"
+      },
+      "chef" : {
+        "address" : "Quảng Trị",
+        "dateOfBirth" : "02/06/1985",
+        "fullName" : "Nguyễn Văn Tiến",
+        "gender" : "Male",
+        "passWord" : "051052053",
+        "permission" : "chef",
+        "phone" : "094615487",
+        "userID" : "chef"
+      },
+      "phuhq" : {
+        "address" : "Bạc Liêu",
+        "dateOfBirth" : "02/06/2020",
+        "fullName" : "James Potter",
+        "gender" : "Male",
+        "passWord" : "051",
+        "permission" : "employee",
+        "phone" : "0349457851",
+        "userID" : "phuhq"
+      }
+    },
+    "TBT_Invoices" : {
+      "T03" : {
+        "date" : "25062020",
+        "drinksList" : [ {
+          "drinksList" : [ {
+            "drinkID" : 1,
+            "drinkName" : "Coffee",
+            "nowQty" : 1,
+            "price" : 15000
+          }, {
+            "drinkID" : 2,
+            "drinkName" : "Milk Coffee",
+            "nowQty" : 1,
+            "price" : 19000
+          } ],
+          "status" : "order",
+          "table" : "Table 03",
+          "tableID" : "T03",
+          "total" : 34000
+        } ],
+        "status" : "invoice",
+        "table" : "Table 03",
+        "tableID" : "T03",
+        "total" : 34000
+      },
+      "T06" : {
+        "date" : "25062020",
+        "drinksList" : [ {
+          "drinksList" : [ {
+            "drinkID" : 3,
+            "drinkName" : "Orange Smoothie",
+            "nowQty" : 2,
+            "price" : 25000
+          } ],
+          "status" : "order",
+          "table" : "Table 06",
+          "tableID" : "T06",
+          "total" : 50000
+        } ],
+        "status" : "invoice",
+        "table" : "Table 06",
+        "tableID" : "T06",
+        "total" : 50000
+      },
+      "T15" : {
+        "date" : "25062020",
+        "drinksList" : [ {
+          "drinksList" : [ {
+            "drinkID" : 2,
+            "drinkName" : "Milk Coffee",
+            "nowQty" : 1,
+            "price" : 19000
+          } ],
+          "status" : "order",
+          "table" : "Table 15",
+          "tableID" : "T15",
+          "total" : 19000
+        } ],
+        "status" : "invoice",
+        "table" : "Table 15",
+        "tableID" : "T15",
+        "total" : 19000
+      }
+    },
+    "TBT_Orders" : {
+      "T02" : {
+        "drinksList" : [ {
+          "drinkID" : 1,
+          "drinkName" : "Coffee",
+          "image" : "http://",
+          "nowQty" : 1,
+          "price" : 15000
+        } ],
+        "status" : "order",
+        "table" : "Table 02",
+        "tableID" : "T02",
+        "total" : 15000
+      },
+      "T03" : {
+        "drinksList" : [ {
+          "drinkID" : 3,
+          "drinkName" : "Orange Smoothie",
+          "image" : "http://",
+          "nowQty" : 1,
+          "price" : 25000
+        }, {
+          "drinkID" : 4,
+          "drinkName" : "CocaCola",
+          "image" : "http://",
+          "nowQty" : 1,
+          "price" : 15000
+        } ],
+        "status" : "order",
+        "table" : "Table 03",
+        "tableID" : "T03",
+        "total" : 40000
+      },
+      "T04" : {
+        "drinksList" : [ {
+          "drinkID" : 1,
+          "drinkName" : "Coffee",
+          "image" : "http://",
+          "nowQty" : 1,
+          "price" : 15000
+        }, {
+          "drinkID" : 2,
+          "drinkName" : "Milk Coffee",
+          "image" : "http://",
+          "nowQty" : 1,
+          "price" : 19000
+        } ],
+        "status" : "order",
+        "table" : "Table 04",
+        "tableID" : "T04",
+        "total" : 34000
+      },
+      "T05" : {
+        "drinksList" : [ {
+          "drinkID" : 3,
+          "drinkName" : "Orange Smoothie",
+          "image" : "http://",
+          "nowQty" : 1,
+          "price" : 25000
+        } ],
+        "status" : "order",
+        "table" : "Table 05",
+        "tableID" : "T05",
+        "total" : 25000
+      },
+      "T11" : {
+        "drinksList" : [ {
+          "drinkID" : 4,
+          "drinkName" : "CocaCola",
+          "image" : "http://",
+          "nowQty" : 1,
+          "price" : 15000
+        } ],
+        "status" : "order",
+        "table" : "Table 11",
+        "tableID" : "T11",
+        "total" : 15000
+      }
+    }
+  }
+}
